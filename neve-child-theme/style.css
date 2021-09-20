@@ -1,0 +1,27 @@
+/*
+ Theme Name:   Portfolio - child theme
+ Theme URI:    http://nicolaiknygle.dk/
+ Description:  Neve Child Theme
+ Author:       Nicolai Beck Knygle
+ Author URI:   http://nicolaiknygle.dk
+ Template:     neve
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         Accessibility Ready, Block Editor Styles, Blog, Custom Background, Custom Colors, Custom Header, Custom Logo, Custom Menu, E-Commerce, Featured Image Header, Featured Images, Flexible Header, Footer Widgets, Full Width Template, Grid Layout, Left Sidebar, One Column, Portfolio, Right Sidebar, RTL Language Support, Sticky Post, Theme Options, Threaded Comments, Translation Ready, Two Columns, Wide Blocks
+ Text Domain:  Neve Child-theme
+*/
+
+
+/* ændring i baggrundsfarven i body-tagget */ 
+.body {
+background-color: rgb(179, 167, 159);
+}
+
+
+/* Ny font til 'Nicolai Knygle' på forsiden */ 
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+.h1.elementor-heading-title.elementor-size-default {
+    font-family: 'Grechen Fuemen', cursive;
+}
