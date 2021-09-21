@@ -13,15 +13,24 @@
 */
 
 
-/* ændring i baggrundsfarven i body-tagget */ 
-.body {
-background-color: rgb(179, 167, 159);
-}
-
-
 /* Ny font til 'Nicolai Knygle' på forsiden */ 
 @import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
 
 .h1.elementor-heading-title.elementor-size-default {
     font-family: 'Grechen Fuemen', cursive;
+}
+
+/* ændring af billedes placering på "Simul" undersiden. */ 
+.elementor-custom-embed-image-overlay {
+    margin-top: -15px ;
+}
+
+/* ændring af h2-tagget placering på "Simul" undersiden. */ 
+h2.elementor-heading-title.elementor-size-default {
+    margin-top: -15px;
+}
+
+/* ændring af den nederste video placering på "Simul" undersiden */ 
+video.elementor-video {
+    margin: 5px;
 }
